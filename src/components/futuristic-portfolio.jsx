@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Github, Linkedin, Twitter, Zap } from "lucide-react";
+import Image from "next/image";
 
 const projects = [
   { id: 1, title: "Quantum AI Assistant", description: "Next-gen AI powered by quantum algorithms", image: "https://picsum.photos/seed/quantum/400/300", github: "#", demo: "#" },
@@ -153,14 +154,14 @@ export function FuturisticPortfolioComponent() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.2, duration: 0.8 }}>
-                  I'm a quantum full-stack developer with expertise in merging cutting-edge web technologies with quantum computing principles. My mission is to push the boundaries of what's possible in web development, creating immersive and hyper-efficient digital experiences.
+                  I&apos;m a quantum full-stack developer with expertise in merging cutting-edge web technologies with quantum computing principles. My mission is to push the boundaries of what&apos;s possible in web development, creating immersive and hyper-efficient digital experiences.
                 </motion.p>
                 <motion.p
                   className="text-lg mb-6 leading-relaxed"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.4, duration: 0.8 }}>
-                  When I'm not coding in multiple dimensions, I'm exploring the frontiers of neural interfaces and contributing to open-source quantum projects that aim to revolutionize the digital landscape.
+                  When I&apos;m not coding in multiple dimensions, I&apos;m exploring the frontiers of neural interfaces and contributing to open-source quantum projects that aim to revolutionize the digital landscape.
                 </motion.p>
                 <motion.div
                   className="flex space-x-4"
@@ -201,7 +202,7 @@ export function FuturisticPortfolioComponent() {
                         className="bg-black/50 backdrop-blur-xl border-blue-500/20 overflow-hidden hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300 group">
                         <CardHeader className="p-0">
                           <div className="relative overflow-hidden">
-                            <img
+                            <Image
                               src={project.image}
                               alt={project.title}
                               className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110" />
