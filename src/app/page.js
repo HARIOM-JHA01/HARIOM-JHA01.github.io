@@ -1,7 +1,9 @@
+import { FuturisticPortfolioComponent } from "@/components/futuristic-portfolio";
+
 export default function Home() {
     return (
         <>
-            <h1>Hello World!</h1>
+            <FuturisticPortfolioComponent />
         </>
     );
 }
