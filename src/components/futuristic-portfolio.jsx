@@ -107,7 +107,7 @@ export function FuturisticPortfolioComponent() {
                 </motion.div>
                 <Avatar
                   className="w-40 h-40 mb-8 ring-2 ring-blue-500 ring-offset-4 ring-offset-black">
-                  <AvatarImage src="https://picsum.photos/seed/janequantum/200" />
+                  <AvatarImage src={"./profile.jpg"} />
                   <AvatarFallback>JQ</AvatarFallback>
                 </Avatar>
                 <motion.h2
@@ -358,7 +358,7 @@ export function FuturisticPortfolioComponent() {
 
         <footer className="mt-12 p-4 md:p-6 bg-black/30 border-t border-blue-500/20">
           <div className="container mx-auto text-center text-gray-400">
-            <p>&copy; 2024 Jane Quantum. All rights reserved across the multiverse.</p>
+            <p>&copy; 2024 Hariom Jha. All rights reserved across the multiverse.</p>
           </div>
         </footer>
       </div>
